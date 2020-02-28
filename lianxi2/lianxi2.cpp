@@ -8,7 +8,7 @@ using namespace cv;
 
 int main()
 {
-	cv::Mat srcMat = imread("D://1.jpd", 0);
+	cv::Mat srcMat = imread("D://1.jpg", 0);
 	imshow("src", srcMat);
 	waitKey(0);
 	return 0;
